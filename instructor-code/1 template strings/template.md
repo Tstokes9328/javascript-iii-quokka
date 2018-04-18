@@ -6,7 +6,7 @@ In javascript we can combine strings with the + symbol.
 ```js 
 let firstName = "Jane";
 let lastName = "Doe";
-let fullName = firstName + " " + Last Name
+let fullName = firstName + " " + lastName
 ```
 
 fullName would contain 'Jane Doe'
@@ -19,7 +19,7 @@ We then use ${ } to break our of the string, and we can put in variables
 let firstName = "John";
 let lastName = "Doe";
 let fullName = `${firstName} ${lastName}`
-``` 
+```
 
 For small strings like combining first and last name it doesn't look very helpful, but in something like an email template, it becomes much easier to read. 
 

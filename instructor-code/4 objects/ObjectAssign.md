@@ -5,8 +5,7 @@
 `Object.assign( destination, source )`
 
 `Object.assign( { }, { name: "Me" } )`
- 
- {name: "Me"}
+{name: "Me"}
 
 #### Object.assign copies from the right to the left and returns the final copy
 
@@ -23,5 +22,5 @@ var result = Object.assign( { age: 27 }, { name: "Myself"})
 
 ###### Can copy multiple times 
 ```js
-var result = Object.assign( { age: 27 }, { name: "Myself"}, { color: "Red", age: 15}, { food: "Wings", name: "Not Myself", height: 6 }) 
+var result = Object.assign( {}, user, fbProfile, linkedInProfile, googleProfile) 
 ```

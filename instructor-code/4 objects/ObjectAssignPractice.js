@@ -25,7 +25,8 @@ pt;
 
 
 // Make the a copy of a person that is a smurf
-let smrf = Object.assign({}, person, smurf, thundercat);
+
+let smrf  = Object.assign({}, person, smurf, thundercat);
 smrf
 // Make a copy of a person that is a smurf then a thundercat
 
